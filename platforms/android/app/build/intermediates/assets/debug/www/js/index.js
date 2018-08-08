@@ -32,6 +32,11 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function () {
         this.receivedEvent('deviceready');
+        screen.orientation.lock('portrait').then(function success() {
+            console.log("Successfully locked the orientation");
+        }, function error(errMsg) {
+            console.log("Error locking the orientation :: " + errMsg);
+        });
     },
 
     // Update DOM on a Received Event
