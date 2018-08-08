@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Aug 08 11:50:16 IST 2018
+#Wed Aug 08 15:21:19 IST 2018
 25.file=/home/bhuvan/Cordova/hello/platforms/android/app/build/intermediates/assets/debug/www/cordova.js
 25.base=/home/bhuvan/Cordova/hello/platforms/android/app/build/intermediates/assets/debug
 22.set=ANDROID_RESOURCE
