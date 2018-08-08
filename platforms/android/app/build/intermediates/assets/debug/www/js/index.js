@@ -111,7 +111,7 @@ $(document).ready(function () {
     
     document.getElementById("root").appendChild(doc.getElementsByTagName("svg")[0]);
     $(document).ready(function () {
-    let heightToSet = (window.screen.height)/2;
+    let heightToSet = (window.screen.height)/1.5;
     console.log(document.getElementsByTagName("svg")[0].setAttribute("height", heightToSet));
         console.log("width", window.screen.width);
         console.log("height", window.screen.height);
@@ -120,11 +120,13 @@ $(document).ready(function () {
         // // screen.orientation.lock("any");
         // console.log("orientation", );
 
-        screen.orientation.lock('landscape').then(function success() {
-            console.log("Successfully locked the orientation");
-        }, function error(errMsg) {
-            console.log("Error locking the orientation :: " + errMsg);
-        });
+        // screen.orientation.lock('landscape').then(function success() {
+        //     console.log("Successfully locked the orientation");
+        // }, function error(errMsg) {
+        //     console.log("Error locking the orientation :: " + errMsg);
+        // });
+
+        $('#color-picker').colorpicker();
 
     scaleSVG = () => {
         

@@ -2,6 +2,11 @@ body {
     height: 100%;
 }
 
-.svg-image {
-    height: 50%;
+input {
+    background-color : black;
+    color: white;
+}
+
+#reset-button{
+    background-color:#C8C8C8;
 }
